@@ -42,8 +42,8 @@ public class PagingAction {
 
 	public int calEndPage() {
 
-		System.out.println("startPage = " + startPage);
-		System.out.println("maxList = " + maxList);
+		/*System.out.println("startPage = " + startPage);
+		System.out.println("maxList = " + maxList);*/
 		endPage = (startPage + dividePage) - 1;
 		return endPage;
 	}

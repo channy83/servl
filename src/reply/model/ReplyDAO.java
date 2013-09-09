@@ -36,6 +36,7 @@ public class ReplyDAO {
 		
 		boolean result = false;
 		
+		System.out.println("reply_num="+data.getReply_num()+", reply_board_num="+data.getReply_board_num()+", reply_name="+data.getReply_name());
 		String sql = "insert into reply values (?, ?, ?, ?)";
 		
 		try{
